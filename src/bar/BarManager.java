@@ -1,7 +1,6 @@
 package bar;
-<<<<<<< HEAD
-import java.io.*;
 
+import java.io.*;
 import ui.Manager;
 
 public class BarManager {
@@ -48,34 +47,6 @@ public class BarManager {
 		Bar bar = (Bar) in.readObject();
 		
 		new BarManager(bar);
-=======
-import ui.Manager;
-
-public class BarManager {
-
-	private Bar bar;
-	private Manager ui;
-
-	public BarManager(){
-		bar = new Bar();
-		ui = new Manager(this);
-	}
-	
-	public void removeElement(BarElement element, int list){
-		bar.removeBarElement(bar.getList(list), element); 
-	}
-
-	public void addElement(BarElement element, int list){
-		bar.addBarElement(bar.getList(list), element);
-	}
-
-	public String getList(int list){
-		return bar.getList(list).toString();
-	}
-
-	public int countItemsInList(int list){
-		return bar.getList(list).size();
->>>>>>> refs/remotes/origin/master
 	}
 }
 

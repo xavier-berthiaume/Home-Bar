@@ -18,11 +18,4 @@ public class Syrups extends LiquidElement{
         String flavors = values[4];
         return new Syrups(name, size, price, brand, flavors);
     }
-<<<<<<< HEAD
-    
-    public String[] getFlavors() {
-    	return flavors;
-    }
-=======
->>>>>>> refs/remotes/origin/master
 }
