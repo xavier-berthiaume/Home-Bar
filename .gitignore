@@ -1,11 +1,8 @@
-<<<<<<< HEAD
-/bin/
-=======
 #Project specific folder to ignore, binary files
-bin/bar/
-
+bin/
 #General java files to ignore, just binary
 *.class
 /bin
 .DS_Store
->>>>>>> refs/remotes/origin/master
+#Eclipse project files
+.metadata/
