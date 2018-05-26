@@ -1,1 +1,11 @@
+<<<<<<< HEAD
 /bin/
+=======
+#Project specific folder to ignore, binary files
+bin/bar/
+
+#General java files to ignore, just binary
+*.class
+/bin
+.DS_Store
+>>>>>>> refs/remotes/origin/master
